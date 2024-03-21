@@ -28,5 +28,4 @@ ARGV.each do |arg|
     end
     result << i_arg if !is_inserted
 end
-
 puts result.join(', ')
