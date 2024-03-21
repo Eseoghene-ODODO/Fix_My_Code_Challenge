@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 FizzBuzz functiom prints from 1 to n separated by space.
 - For multiples of 3 it pronts "Fizz" instead of the number.
@@ -28,7 +28,7 @@ def fizzbuzz(n):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2:
+    if len(sys.argv) <= 1:
         print("Missing number")
         print("Usage: ./0-fizzbuzz.py <number>")
         print("Example: ./0-fizzbuzz.py 89")
